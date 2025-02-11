@@ -39,3 +39,38 @@ A merge conflict could happen if two people/branches are modifying the same part
 
 Yes, it is suitable. And apparently good.
 
+9.	Should I from now on version my word and powerpoint slides using git? Why/why not?
+
+Depends on the scope and length of the file. It can be useful for version control if the file is long. If it short, the tracking can be an inconvenience.
+
+
+10.	What could happen when I push my latest commit to the remote repository without pulling first?
+
+•  If someone else has pushed new commits after your last pull, Git will reject your push to prevent overwriting those changes.
+•  You’ll see an error like:
+! [rejected]        main -> main (fetch first)
+error: failed to push some refs to 'origin/main'
+hint: Updates were rejected because the remote contains work that you do not have locally.
+
+11.	What happens when I pull without commiting my local changes first?
+
+When Pulling (git pull) Without Committing Local Changes
+•	If you pull updates from GitHub while having uncommitted changes, and both your local changes and the remote changes edit the same lines of a file, Git can’t decide which version to keep.
+•	Example:
+o	You change line 10 of index.html locally.
+o	A teammate also changed line 10 and pushed their changes to GitHub.
+o	When you git pull, Git detects the conflict and stops the merge.
+
+12.	What is the difference between branching and forking?
+
+Both branching and forking help you work on code separately, but they are used in different situations. 
+Branching (Within the Same Repository)
+•	A branch is a separate line of development within a single Git repository.
+•	All branches share the same remote repository (e.g., origin/main).
+•	Used for feature development, bug fixes, or experiments without affecting the main branch.
+
+Forking (Creating a Separate Repository)
+•	A fork is a complete copy of someone else’s GitHub repository into your own GitHub account.
+•	Used when you don’t have direct access to the original repo (e.g., open-source projects).
+•	Changes in the fork do not affect the original repository.
+
