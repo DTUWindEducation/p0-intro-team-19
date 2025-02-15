@@ -1,0 +1,12 @@
+Q1: Read through the functions and docstrings (triple-quote text below
+   the function definition).  
+    * How many functions are there? What is each function's purpose?
+A1: Functions: 5 functions:
+test_greet: Because the preclass assignment functions are imported, the test_greet function checks that the function "greet" from our preclass assignment actually returns the expected string. 
+
+The same is the case for the other functions, they are made to see if the functions in the preclass assignment return the expected outcome. 
+
+Q2:Read through the `test_square_list()` function. Do you understand
+   how it works?  
+
+A2: In the function "test_square_list" an input and the expected output is given. The function then tests, if the preeclass_assignment function named "square_list" is given the input, is the actual output equal to the expected output defined. 
