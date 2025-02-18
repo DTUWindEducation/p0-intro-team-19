@@ -22,7 +22,7 @@ def test_goldilocks(capsys):
     # when
     fxn.goldilocks (bed_lenghth) 
     captured = capsys.readouterr () 
-    expected_out = "Too small"
+    expected_out = "Too small\n"
     # then
     assert captured.out == expected_out # #Done;  Update the contents of this function so it correctly tests goldilocks
 
