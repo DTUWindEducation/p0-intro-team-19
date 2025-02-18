@@ -10,3 +10,5 @@ Q2:Read through the `test_square_list()` function. Do you understand
    how it works?  
 
 A2: In the function "test_square_list" an input and the expected output is given. The function then tests, if the preeclass_assignment function named "square_list" is given the input, is the actual output equal to the expected output defined. 
+
+After adapting test_fibbonaci_stop and running pytest again, 4 test fails, and 1 is passing. 
