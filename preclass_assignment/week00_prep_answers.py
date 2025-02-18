@@ -28,7 +28,7 @@ def square_list(m):
 square_list([1, 2, 3])
 
 # Q4
-def fibonacci_stop(max):
+def fibonnaci_stop(max):
     sequence = [1, 1]
     while True:
         n = sequence[-1] + sequence[-2]
@@ -37,7 +37,7 @@ def fibonacci_stop(max):
         sequence.append(n)
     print(sequence)
 
-fibonacci_stop(30)
+fibonnaci_stop(30)
 
 # Q5
 def clean_pitch(pitch_angles, status_signals):
