@@ -40,7 +40,7 @@ def test_fibonacci_stop():
     inp = 30 # Test input to function
     exp_out = [1,1,2,3,5,8,13,21] #Exp. output
     # when
-    out = fxn.fibonnaci_stop(inp)
+    out = fxn.fibonacci_stop(inp)
     # then
     assert exp_out == out  # TODO! Update the contents of this function so it correctly tests fibonacci_stop
 

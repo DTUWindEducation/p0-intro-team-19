@@ -1,22 +1,28 @@
 # Q1
 def greet(name):
-    print(f'Hello, {name}!')
-
+    return (print(f'Hello, {name}!'))
+    
 # Q2
 def goldilocks(bed_length):
+    output = ""
     if bed_length<140:
-        print('Too small!')
+        output = "Too small"
+        print(output)
     elif bed_length>150:
-        print('Too large!')
+        output = "Too large"
+        print(output)
     else:
-        print('Just right. :)')
-
+        output = "Just right"
+        print(output)
+    return (output)
+    
 # Q3
 def square_list(number_list):
     squared_numbers = []
     for numbers in number_list:
         squared_numbers.append(numbers**2)
     print(squared_numbers)
+    return (squared_numbers)
 
 # Q4
 def fibonacci_stop(max):
@@ -27,6 +33,7 @@ def fibonacci_stop(max):
             break
         sequence.append(new_number)
     print(sequence)
+    return(sequence)
 
 # Q5
 def clean_pitch(pitch_angles, status_signals):
@@ -37,3 +44,4 @@ def clean_pitch(pitch_angles, status_signals):
         else:
             cleaned_list.append(pitch)
     print(cleaned_list)
+    return(cleaned_list)
